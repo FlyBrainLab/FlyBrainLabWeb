@@ -1,0 +1,18 @@
+I"'<p><img src="https://github.com/mkturkcan/singlepage/raw/gh-pages/img/flylablogo.png" alt="FlyBrainLab: Interactive Computing for the Fruit Fly Brain" /></p>
+
+<p align="center">
+  <a href="https://twitter.com/flybrainobs">
+        <img src="https://img.shields.io/twitter/follow/flybrainobs.svg?style=social&amp;label=Follow" alt="Twitter Follow" />
+    </a>
+    <a href="https://github.com/FlyBrainLab/FlyBrainLab">
+        <img src="https://img.shields.io/github/license/FlyBrainLab/FlyBrainLab.svg" alt="GitHub license" />
+    </a>
+    <a href="https://github.com/FlyBrainLab/FlyBrainLab">
+        <img src="https://img.shields.io/github/last-commit/FlyBrainLab/FlyBrainLab.svg" alt="GitHub last commit" />
+    </a>
+</p>
+
+<p><button name="button" onclick="http://www.google.com">Click me</button></p>
+
+<p>FlyBrainLab provides an environment where computational researchers can present configurable, executable neural circuits and experimental scientists can interactively explore circuit structure and function ultimately leading to biological validation.</p>
+:ET

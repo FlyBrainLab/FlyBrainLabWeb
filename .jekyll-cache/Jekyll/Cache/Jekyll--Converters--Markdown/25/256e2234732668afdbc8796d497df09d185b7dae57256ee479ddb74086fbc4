@@ -1,0 +1,24 @@
+I"�<h1>Starting Up FlyBrainLab</h1>
+
+<p>After the installation, simply run</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter lab
+</code></pre></div></div>
+<p>to get started.</p>
+
+<p>To test if your installations are working, check</p>
+<ul>
+  <li>whether you see an “FFBO” section below “Other” in JupyterLab Launcher, as shown here:</li>
+</ul>
+
+<p align="center">
+  <img src="https://github.com/flybrainlab/flybrainlab/raw/master/fbl_loaded.png" width="50%" />
+</p>
+
+<ul>
+  <li>whether you can run the example notebook <a href="https://github.com/FlyBrainLab/FBLClient/blob/master/examples/jupyter_notebooks/1_introduction.ipynb">here</a>.</li>
+</ul>
+
+<h3>Documentation</h3>
+
+<p>Documentation for FBLClient, which handles communications between FBL and an FFBO server, is available <a href="https://flybrainlab.github.io/FBLClient/_build/site/flybrainlab/flybrainlab-main/">here</a>.</p>
+:ET
