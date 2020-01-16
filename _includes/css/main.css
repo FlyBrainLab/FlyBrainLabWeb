@@ -121,7 +121,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:#2e2e2e;
+  background:#4d4d4d;
 }
 
 nav ul {
@@ -142,7 +142,7 @@ nav ul li {
   letter-spacing:normal;
   text-transform:uppercase;
   min-width:110px;
-  line-height:60px;
+  line-height:40px;
   margin:0;
 }
 
@@ -150,7 +150,7 @@ nav ul li a, nav ul li a:visited {
   display:block;
   color:#fff;
   text-decoration:none;
-  font-weight:600;
+  font-weight:500;
   opacity:.75;
 }
 
@@ -170,7 +170,7 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:210px 0;
+  padding:110px 0;
   background:url(img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
@@ -200,40 +200,40 @@ nav ul li:hover, nav ul li.active {
 }
 
 .sectiondivider {
-  width:270px;
-  height:270px;
+  width:130px;
+  height:130px;
   padding:15px;
   position:absolute;
-  top:-135px;
+  top:-65px;
   left:50%;
-  margin-left:-135px;
+  margin-left:-65px;
 }
 
 .sectiondivider img {
-  width:200px;
-  height:240px;
+  width:60px;
+  height:100px;
   position: static;
   margin-top: -20px;
 }
 
 .sectiondivider .fa-stack {
-  font-size: 130px;
+  font-size: 60px;
   position: static;
   margin-top: -8px;
 }
 .sectiondivider .fa-circle { color: #fff; }
 
 .sectiondivider h5 {
-  font-size:15px;
+  font-size:10px;
   font-weight:700;
   text-transform:uppercase;
   position:absolute;
-  bottom:50px;
+  bottom:14px;
   left:auto;
   text-align:center;
   display:block;
   z-index:6;
-  width:240px;
+  width:100px;
 }
 
 .sectiondivider.imaged {
