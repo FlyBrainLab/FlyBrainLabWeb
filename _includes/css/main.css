@@ -207,6 +207,7 @@ nav ul li:hover, nav ul li.active {
   top:-65px;
   left:50%;
   margin-left:-65px;
+  color: #333333;
 }
 
 .sectiondivider img {
