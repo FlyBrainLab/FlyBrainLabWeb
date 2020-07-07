@@ -30,7 +30,7 @@
         id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for node in site.posts reversed %} {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-          <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+          <li class="p-{{id}}"><a href="http://fbl.fruitflybrain.org/#{{id}}">{{node.title}}</a></li>
           {% endfor %}
           <li class="p-{{id}}"><a href="http://fruitflybrain.org/">FFBO</a></li>
         </ul>
