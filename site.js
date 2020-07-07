@@ -26,18 +26,22 @@ $.extend($.easing,
         navItems = this;
 
         //attatch click listeners
-    	navItems.on('click', function(event){
-    		event.preventDefault();
-            var navID = $(this).attr("href").substring(1);
-            disableScrollFn = true;
-            activateNav(navID);
-            populateDestinations(); //recalculate these!
-        	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
-                settings.scrollSpeed, "easeInOutExpo", function(){
-                    disableScrollFn = false;
-                }
-            );
-    	});
+        $("nav li a").each(function () {
+            if ($(this).attr("href").charAt(0) == '#') {
+                $(this).on('click', function (event) {
+                    event.preventDefault();
+                    var navID = $(this).attr("href").substring(1);
+                    disableScrollFn = true;
+                    activateNav(navID);
+                    populateDestinations(); //recalculate these!
+                    $('html,body').animate({ scrollTop: sections[navID] - settings.scrollToOffset },
+                        settings.scrollSpeed, "easeInOutExpo", function () {
+                            disableScrollFn = false;
+                        }
+                    );
+                });
+            };
+        });
 
         //populate lookup of clicable elements and destination sections
         populateDestinations(); //should also be run on browser resize, btw
@@ -57,9 +61,14 @@ $.extend($.easing,
 
     function populateDestinations() {
         navItems.each(function(){
+            try {
             var scrollID = $(this).attr('href').substring(1);
             navs[scrollID] = (settings.activateParentNode)? this.parentNode : this;
             sections[scrollID] = $(document.getElementById(scrollID)).offset().top;
+            }
+            catch(err) {
+
+            }
         });
     }
 
@@ -89,6 +98,12 @@ $(document).ready(function (){
             	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
             });
         }
+/*         else {
+            console.log(this);
+            $(this).on('click', function(event) {
+            });
+
+        } */
 	});
 
 });
