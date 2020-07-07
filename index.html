@@ -32,6 +32,7 @@
           {% for node in site.posts reversed %} {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
           <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
           {% endfor %}
+          <li class="p-{{id}}"><a href="http://fruitflybrain.org/">FFBO</a></li>
         </ul>
       </div>
       </div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
