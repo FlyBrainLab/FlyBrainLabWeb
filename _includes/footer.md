@@ -1,5 +1,5 @@
 
-[Based on SinglePaged Theme](https://github.com/t413/SinglePaged)
+<a  target="_blank" rel="noopener noreferrer" href="https://github.com/t413/SinglePaged">Based on SinglePaged Theme</a>
 &mdash;
-This site is [Open Source!](https://github.com/flybrainlab/flybrainlabweb)
+<a  target="_blank" rel="noopener noreferrer" href="https://github.com/flybrainlab/flybrainlabweb">Open Source!</a>
 
