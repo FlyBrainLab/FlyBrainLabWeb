@@ -21,7 +21,7 @@ html { box-sizing: border-box; }
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
   nav .p-{{id}} { border-color: #ffffff; }
   #{{id}} { background-color: {{ bg }} !important; color: {{ fg }}; }
-  #{{id}} a { color: {{ fg }}; }
+  #{{id}} a { color: #f37f64; }
 
 {% endfor %}
  /*  #{{id}} .sectiondivider { color: {{ bg }}; } */
