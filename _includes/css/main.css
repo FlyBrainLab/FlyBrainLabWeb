@@ -189,7 +189,7 @@ nav ul li:hover, nav ul li.active {
   padding: 8px 0;
   min-height:0;
   text-align:center;
-  background-color:#2e2e2e;
+  background-color:#212121;
   background-image:none;
 }
 #footer .container p { font-size:13px; margin:0; }
@@ -649,4 +649,25 @@ canvas.hidden {
 html.hasTouch .annotator-viewer li .annotator-controls, 
 html.hasTouch .annotator-viewer li .annotator-controls {
   opacity: 1;
+}
+
+#footer a {
+  color: #62a9f5;
+}
+
+#footer p {
+
+}
+
+#footer i {
+  color: #62a9f5;
+  font-size: 2em;
+}
+
+#footer a:hover {
+  color: #47a0ff;
+}
+
+#footer i:hover {
+  color: #47a0ff;
 }

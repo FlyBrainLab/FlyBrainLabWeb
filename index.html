@@ -64,11 +64,11 @@
     {% endfor %}
 
 
-    <div id="footer" class="section text-white">
-      <div class="container">
+    <div id="footer" style="color: white">
+
         {% capture foottext %} {% include footer.md %} {% endcapture %}
         {{ foottext | markdownify }}
-      </div>
+
     </div>
   </div>
 
