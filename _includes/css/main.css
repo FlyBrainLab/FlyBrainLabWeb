@@ -80,9 +80,6 @@ hr {
   padding: 0 5%;
 }
 .container ol, .container ul { padding: 0 8%; }
-.container p:first-of-type {
-    margin-top: 40px;
-}
 
 /* keep embedded videos fluid! */
 .icontain {
@@ -123,7 +120,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:#212121;
+  background:#343a40;
 }
 
 nav ul {
@@ -136,35 +133,35 @@ nav ul {
 
 nav ul li {
   display:inline-block;
-  border-top:{{navborder}}px solid;
   padding: {{navborder}}px;
   *display:inline;
   zoom:1;
   line-height:normal;
   letter-spacing:normal;
-  text-transform:uppercase;
-  min-width:110px;
   line-height:30px;
   text-align:center;
-  margin:0;
+  margin:2px;
+  border-radius: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 nav ul li a, nav ul li a:visited {
   display:block;
   color:#ffffff;
   text-decoration:none;
-  font-weight:500;
+  font-weight:400;
   opacity:1;
-  font-size:12px;
+  font-size:14px;
 }
 
 nav ul li a:hover {
   opacity:1;
   color:#ffffff;
+  text-decoration:none;
 }
 nav ul li:hover, nav ul li.active {
-  border-top-width: {{navborder_active}}px;
-  padding-top: 0;
+  background-color: #515961;
 }
 
 
@@ -175,7 +172,6 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:110px 0;
   background:url(img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
@@ -415,6 +411,11 @@ nav ul li:hover, nav ul li.active {
   width:19px;
   height:22px;
   margin:2px 4px 0px 6px;
+}
+
+.navbar-brand {
+  font-size: 1.10rem !important;
+  font-weight: 500 !important;
 }
 
 /** Popup **/
@@ -670,4 +671,16 @@ html.hasTouch .annotator-viewer li .annotator-controls {
 
 #footer i:hover {
   color: #47a0ff;
+}
+
+body {
+  background-color: #080808 !important;
+}
+
+.bg-really-dark {
+background-color: #212121!important;
+}
+
+h5 {
+  font-size: 1.5rem !important;
 }
