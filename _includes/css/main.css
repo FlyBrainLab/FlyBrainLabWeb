@@ -164,7 +164,6 @@ nav ul li:hover, nav ul li.active {
   background-color: #515961;
 }
 
-
 /* ----- sections/articles ----- */
 
 .section {
@@ -414,8 +413,8 @@ nav ul li:hover, nav ul li.active {
 }
 
 .navbar-brand {
-  font-size: 1.10rem !important;
-  font-weight: 500 !important;
+  font-size: 1.00rem !important;
+  font-weight: 400 !important;
 }
 
 /** Popup **/

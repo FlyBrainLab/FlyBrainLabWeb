@@ -25,14 +25,13 @@
 <body>
   <div id="main">
 
-    <nav class="navbar fixed-top navbar-expand-sm"><img src="images/fbl_logo.png" width="48" height="48" class="d-inline-block align-top"
-        alt=""><span class="navbar-brand mb-0 h1" style="color:#ffffff; margin-left:8px;"> FlyBrainLab</span><div class="collapse navbar-collapse flex-grow-1 text-right"
+    <nav class="navbar fixed-top navbar-expand-sm"><a target="_blank" rel="noopener noreferrer" href="http://fruitflybrain.org/"><img src="images/ffbo_logo.png" width="48" height="48" class="d-inline-block align-top"
+        alt=""></a><a target="_blank" rel="noopener noreferrer" href="http://fruitflybrain.org/"><span class="navbar-brand mb-0 h1" style="color:#ffffff; margin-left:8px;"> Fruit Fly Brain Observatory</span></a><div class="collapse navbar-collapse flex-grow-1 text-right"
         id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for node in site.posts reversed %} {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
           <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
           {% endfor %}
-          <li class="p-{{id}}"><a target="_blank" rel="noopener noreferrer" href="http://fruitflybrain.org/">FFBO</a></li>
         </ul>
       </div>
       </div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
